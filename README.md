@@ -8,18 +8,18 @@ This repository contains a News Recommender System project. It aims to provide p
 **Data Preparation**
 
 Article Data: articles.csv has following columns:
-article_id: Unique identifier for the article
-Title: Title of the article
-Description: Description or content of the article
-Category: Category of the article
-Link: url of the article
-PublicationDate: Date the article was published
+1.article_id: Unique identifier for the article
+2.Title: Title of the article
+3.Description: Description or content of the article
+4.Category: Category of the article
+5.Link: url of the article
+6.PublicationDate: Date the article was published
 
 Clickstream Data: clickstream_data.csv has following columns:
-UserId: Unique identifier for the user
-SessionId: Unique identifier for the session
-ArticleId_served: The ID of the article served to the user
-Click: Whether the article was clicked ("Yes" or "No")
-Time_Spent: Time spent on the article in seconds
+1.UserId: Unique identifier for the user
+2.SessionId: Unique identifier for the session
+3.ArticleId_served: The ID of the article served to the user
+4.Click: Whether the article was clicked ("Yes" or "No")
+5.Time_Spent: Time spent on the article in seconds
 
 For running the Application: **GUI** is made using Tkinter
